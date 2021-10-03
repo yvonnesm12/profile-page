@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Yvonne S. Marquez Portfolio</title>
+
+    <!-- FONT AWESOME -->
+
+    <!-- Your styles should be called here -->
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <section class="top">
+        <h1>Yvonne S. Marquez</h1>
+        <h2>Independant reporter based in Brooklyn, NY.</h2>
+      </section>
+
+      <!-- <section class="photo"> -->
+
+      <figure>
+        <img class="main_img" src="images/main.jpg">
+        <figcaption>Yvonne Marquez is a reporter, writer, and editor. <span class="credit">Credit: @cinphotos</span></figcaption>
+      </figure>
+
+      <section class="text">
+        <p>Yvonne S. Marquez is an independent reporter from the Rio Grande Valley, a region along the Texas-Mexico border.</p>
+
+<p>For nearly a decade, Yvonne has told stories important to LGBTQ communities. She has reported on the mental and emotional toll of anti-trans legislation on transgender youth in Texas and has profiled queer and trans people across the South.</p>
+
+<p>Yvonne is currently attending the Craig Newmark Graduate School of Journalism at CUNY, where she plans to specialize in audio reporting.</p>
+
+<p> Follow her on Twitter <a href="https://twitter.com/yvonnesm12">@yvonnesm12</a>.</p>
+      </section>
+
+      <h3 class="flex-hed">Featured work</h3> <!-- broke the subhed out of text to correct alignment based on mock -->
+
+      <section class="flex">
+        <!-- flex box refers to the box that contains the "flexed" content -->
+
+        <section class="img_holder">
+          <!-- each img_holder is flexed content -->
+          <figure class="sub_img">
+            <img class="small" src="images/transyouth.jpeg"> <!-- You should crop your images to be the same size before using them, otherwise, even with flex box, they come out uneven -->
+            <figcaption class="sub_cap">Landon Richie at a rally at the Texas capital in 2019. <span class="credit">Credit: Landon Richie</span></figcaption>
+          </figure>
+          <section class="sub_text">
+            <p><b><a href="https://www.texasobserver.org/fighting-anti-trans-legislation-takes-a-toll-on-texas-kids-and-families/">Fighting Anti-Trans Legislation Takes a Toll on Texas Kids and Families</a></b></p>
+            <p>A record-breaking wave of anti-LGBTQ bills have been introduced by state legislatures across the country this year. Texas lawmakers filed the most of any state, the majority of them attacking trans youth.</p>
+
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="images/frida.jpg">
+            <figcaption class="sub_cap">The six Botanical Fridas, seven-foot-tall sculptures by Mexico City–based artist Paul Zarkin. <span class="credit">Credit: Joel Salcido</span></figcaption>
+          </figure>
+          <section class="sub_text">
+            <p><b><a href="https://www.texasmonthly.com/arts-entertainment/frida-kahlos-garden-san-antonio-exhibit/">Step Into Frida Kahlo's Garden at a Lush New San Antonio Exhibit</a></b></p>
+            <p>Vibrant tropical plants and prickly cacti grow alongside original sculptures by Mexican artists, in a tribute to the artist's love of the natural world.</p>
+
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="images/kaishappley.jpg">
+            <figcaption class="sub_cap">Kai Shapley testifies in front of the Senate Committee on State Affairs on Monday, April 12. <span class="credit">Credit: Video from Texas Senate</span></figcaption>
+          </figure>
+          <section class="sub_text">
+            <p><b><a href="https://www.texasmonthly.com/news-politics/10-year-old-trans-actor-activist-kai-shappley-texas-lege/">10-year-old Activist Kai Shappley on Fighting for Trans Kids in the Texas Lege</a></b></p>
+            <p>The Pearland native went viral this week for her poised and powerful testimony against anti-trans bills.</p>
+          </section>
+        </section>
+
+      </section>
+      <!-- this ^ closes the flex box section -->
+
+    </div>
+
+    <!-- When you get to using javascript, you'll want to link to it at the bottom of the document, still inside the body. That's for later. -->
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Your javascript should be called here -->
+
+  </body>
+
+</html>
